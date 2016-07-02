@@ -1,0 +1,384 @@
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+/* 头部开始 */
+
+#header {
+	float: left;
+	width: 100%;
+	height: 160px;
+	background-color: #f0f0dc;
+	overflow: hidden;
+}
+
+.heaTopWrap {
+	float: left;
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px dotted #b4c864; 
+	background-color: #f2f2f2;
+}
+
+.heaTop {
+	width: 1180px;
+	height: 30px;
+	margin: 0 auto;
+	background-color: #f0f0dc;
+}
+
+.welCon {
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+	margin-left: 12px;
+	font-size: 16px;
+	color: #141414;
+}
+
+.siteInf {
+	float: right;
+	height: 14px;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.siteInfItem {
+	text-decoration: none;
+	/*color: #1f3e99;*/
+	color: #336666;
+}
+
+.siGap {
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	margin-top: 5px;
+	background-color: #8f8f8f;
+}
+
+/* Logo开始 */
+
+.logoWrap {
+	float: left;
+	width: 100%;
+	height: 80px;
+	background-color: #f0f0dc;
+}
+
+.logo {
+	width: 1180px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.logoLink {
+	display: inline-block;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.logoImg {
+	border: none;
+}
+
+/* Logo结束 */
+
+/* 导航开始 */
+
+.navWrap {
+	float: left;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #339933;
+}
+
+.nav {
+	width: 1180px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.navUl {
+	position: absolute;
+	float: left;
+	width: 665px;
+	height: 40px;
+}
+
+.navItem {
+	float: left;
+	width: 110px;
+	height: 40px;
+	list-style-type: none;
+}
+
+.navItemL {
+	display: block;
+	width: 110px;
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.liGap {
+	float: left;
+	display: block;
+	width: 1px;
+	height: 16px;
+	margin-top: 13px;
+	background-color: #39aa39;
+}
+
+.curNav {
+	position: absolute;
+	bottom: 0;
+	left: 220px;
+	width: 110px;
+	height: 7px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px; 
+	background-color: #CCCC33;
+	filter: alpha(opacity=70); 
+	-moz-opacity: 0.7; 
+	opacity: 0.7;
+}
+
+.login {
+	float: right;
+	padding-top: 10px;
+}
+
+.loginIn, .register {
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+/* 导航结束 */
+
+/* 头部结束 */
+
+
+/* 内容开始 */
+
+#content {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #f0f0dc;
+}
+/* #list {
+	width: 1348px;
+	height: 430px;
+	z-index: 1;
+} */
+        #container { width: 1348px; height: 430px; overflow: hidden; position: relative;}
+        #list { width: 9436px; height: 430px; position: absolute; z-index: 1;}
+        #list img { float: left;}
+        #buttons { position: absolute; height: 10px; width: 100px; z-index: 2; bottom: 20px; left: 650px;}
+        #buttons span { cursor: pointer; float: left; border: 1px solid #fff; width: 10px; height: 10px; border-radius: 50%; background: #333; margin-right: 5px;}
+        #buttons .on {  background: orangered;}
+        .arrow { cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 180px; background-color: RGBA(0,0,0,.3); color: #fff;}
+        .arrow:hover { background-color: RGBA(0,0,0,.7);}
+        #container:hover .arrow { display: block;}
+        #prev { left: 20px;}
+        #next { right: 20px;}
+
+.conWrap {
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* 添加内容开始 */
+.theme-title {
+	position: relative;
+	width: 240px;
+	height: 430px;
+	background-color: #e8f0f8;
+	margin-top: -430px;
+	z-index: 2;
+	opacity: 0.8;
+}
+.theme-title ul {
+	position: absolute;
+	width: 240px;
+	height: 430px;
+	list-style-type: none;
+}
+.theme-title ul li {
+	width: 240px;
+	height: 85px;
+	border-bottom: 1px solid #b4a7d6;
+}
+
+.theme-title ul li a {
+	text-decoration: none;
+}
+.tit {
+	margin-left: 20px;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+}
+.tit a {
+	font-size: 18px;
+    color: #333;
+}
+.activity {
+	line-height: 20px;
+	width: 210px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.activity a {
+	padding-right: 10px;
+	color: #666;
+	font-size: 14px;
+}
+
+.theme-title ul li a:hover {
+	text-decoration: underline;
+	color: #3d85c6;
+}
+/*theme-content开始*/
+.theme-content {
+	position: relative;
+	width: 1180px;
+	height: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.cont-item {
+	position: relative;
+	width: 1180px;
+	height: 327px;
+	margin-top: 30px;
+	border-bottom: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+}
+.cont-ad {
+	width: 200px;
+	height: 325px;
+	color: #141414;
+	display: inline-block;
+}
+.cont-ad h2 {
+	font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+    font-family: "Microsoft YaHei" ! important; 
+}
+.cont-ad p {
+	padding: 20px 20px 0 20px;
+}
+.cont-list {
+	position: relative;
+	float: right;
+	display: inline-block;
+	width: 980px;
+	height: 325px;
+}
+.cont-title {
+	width: 978px;
+	height: 40px;
+    line-height: 40px;
+    background: #eef9fe;
+    color: #666;
+    font-size: 16px;
+}
+.cont-title ul {
+	float: left;
+    height: 40px;
+    width: 750px;
+    height: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.cont-title ul li {
+	display: block;
+	float: left;
+	/*width: 92px;*/
+	padding: 0 20px;
+	height: 40px;
+}
+.cont-title ul li:hover{
+	color: #4db8ee;
+	background-color: #fff;
+}
+.clearfix {
+	clear: both;
+}
+.cont-con {
+	position: relative;
+	width: 980px;
+	height: 286px;
+}
+.pic-box {
+	position: relative;
+	display: inline-block;
+	width: 220px;
+	height: 265px;
+	top: 20px;
+	margin-left: 19px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+}
+.theme-name {
+	position: absolute;
+	padding: 0 10px;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* 添加内容结束 */
+
+/* 内容结束 */
+
+
+/* 尾部开始 */
+
+#footer {
+	float: left;
+	width: 100%;
+	height: 60px;
+	background-color: #339933;
+	overflow: hidden;
+}
+
+.fooWrap {
+	width: 1180px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.copyright {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+/* 尾部结束 */
