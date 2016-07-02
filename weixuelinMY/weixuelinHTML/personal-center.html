@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>个人中心</title>
+	<script type="text/javascript" src="scripts/jquery.js"></script>
+	<link type="text/css" href="bootstrap-3.3.5-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist\css\bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/personal-center.css">
+	<script type="text/javascript" src="scripts/personal-center.js"></script>
+</head>
+<body>
+<!-- 头部开始 -->
+	<header>
+		<div class="head-logo">
+			<a href="logined-index.jsp">
+				<img src="img/logo.png" alt="logo" >
+			</a>				
+			<a href="logined-index.jsp"><span>惟学林</span></a>	
+		</div>		
+		<!-- nav导航菜单开始 -->
+		<ul id="nav">
+			<li><a href="logined-index.jsp">首页</a></li>
+			<li><a href="#">职路搜索</a></li>
+			<li><a href="#">个人手札</a></li>
+			<li><a href="#">招募令</a></li>
+			<li><a href="personal-center.jsp">个人中心</a></li>
+			<li class="cur" id="cur"></li>
+		</ul>
+		<!-- nav导航菜单结束 -->
+		<!-- login部分开始 -->
+		<div class="navbar-user" id="navbar-user">
+			<img src="img/user.png" alt="用户头像" title="用户头像">
+		</div>
+		<div id="avatar">
+			<ul class="user-avatar">
+				<li><a href="#">昵称:小熊</a></li>
+				<li><a href="#">签名:誓为学霸</a></li>
+				<li><a href="index.jsp">注销</a></li>
+			</ul>
+		</div>
+		<div class="clearboth"></div>
+	</header>
+<!-- 头部结束 -->
+<!-- content开始 -->
+	<div id="content">
+	<!-- perBg背景图开始 -->
+		<div class="perBg">
+			<img src="img/perBg.png" alt="">
+		</div>
+	<!-- perBg背景图结束 -->
+	<!-- 页面主题部分开始 -->
+		<div id="main-wrap">
+			<div id="main">
+				<div class="proto">
+					<img src="img/qq.jpg" alt="">
+				</div>
+				<div class="main-content">
+					<!-- 左边tab-titles部分开始 -->
+					<ul class="tab-titles">
+						<li class="perIn selected">
+							<span class="glyphicon glyphicon-user"></span>个人信息<span class="glyphicon glyphicon-play"></span>
+						</li>
+						<li class="stu">			
+							<span class="glyphicon glyphicon-list-alt"></span>学习计划<span class="glyphicon glyphicon-play"></span>
+						</li>
+						<li class="perS">
+							<span class="glyphicon glyphicon-file"></span>个人手札<span class="glyphicon glyphicon-play"></span>
+						</li>
+						<li class="recuilt">
+							<span class="glyphicon glyphicon-flag"></span>招募令&nbsp;<span class="glyphicon glyphicon-play"></span>
+						</li>
+						<li class="foc">
+							<span class="glyphicon glyphicon-eye-open"></span>关注人&nbsp;<span class="glyphicon glyphicon-play"></span>
+						</li>
+					</ul>
+					<!-- 左边tab-titles部分结束-->	
+					<!-- 右边tab_box部分开始  -->
+					<div class="tab_box">
+						<!-- 个人信息部分开始 -->
+						<div class="personal-inf" style="z-index: 6">
+							<div class="tab_box_title">
+								个人信息
+							</div>
+							<form action="" id="tab-form">
+								<div class="username">
+									<label for="">昵称&nbsp;</label>
+									<input type="text" class="tab-form-input"><br/>
+								</div>
+								<div class="password">
+									<label for="">密码&nbsp;</label>
+									<input type="password" class="tab-form-input"><br/>
+								</div>
+								<div class="sex">
+									<label for="">性别&nbsp;</label>
+									<input type="radio" name="gender" value="se" class="sex-input"><label for="">保密</label>
+									<input type="radio" name="gender" value="male" class="sex-input"><label for="">男</label>
+									<input type="radio" name="gender" value="female" class="sex-input"><label for="">女</label>
+								</div>
+								<div class="school">
+									<label for="">学校&nbsp;</label>
+									<input type="text" class="tab-form-input"><br/>
+								</div>
+								<div class="area">
+									<label for="">地区&nbsp;</label>
+									<input type="text" class="tab-form-input"><br/>
+								</div>
+								<input type="submit" value="保存" class="tab-form-save">
+							</form>
+						</div>
+						<!-- 个人信息部分结束 -->
+						<!-- 学习计划部分开始 -->
+						<div class="personal-inf" >
+							<div class="tab_box_title">
+								学习计划
+							</div>
+							<div class="myPlan">
+								<div class="left-pro">
+									<img src="img/qq.jpg" alt="">
+								</div>
+								<div class="center-con">
+									<h3>数据分析师</h3>
+									<p>
+										数据分析师数据分析师数据分析师数据分析师数据分析师数据分析师数据分析师数据分析师
+									</p>
+								</div>
+								<button type="submit" class="right-continue">继续征程</button>
+							</div>
+							<div class="myPlan">
+								<div class="left-pro">
+									<img src="img/qq.jpg" alt="">
+								</div>
+								<div class="center-con">
+									<h3>web后端工程师</h3>
+									<p>
+										web后端工程师web后端工程师web后端工程师web后端工程师web后端工程师
+									</p>
+								</div>
+								<button type="submit" class="right-continue">继续征程</button>
+							</div>
+							<div class="myPlan">
+								<div class="left-pro">
+									<img src="img/qq.jpg" alt="">
+								</div>
+								<div class="center-con">
+									<h3>web后端工程师</h3>
+									<p>
+										web后端工程师web后端工程师web后端工程师web后端工程师web后端工程师
+									</p>
+								</div>
+								<button type="submit" class="right-continue">继续征程</button>
+							</div>
+							<div class="myPlan">
+								<div class="left-pro">
+									<img src="img/qq.jpg" alt="">
+								</div>
+								<div class="center-con">
+									<h3>web后端工程师</h3>
+									<p>
+										web后端工程师web后端工程师web后端工程师web后端工程师web后端工程师
+									</p>
+								</div>
+								<button type="submit" class="right-continue">继续征程</button>
+							</div>
+							<div class="myPlan">
+								<div class="left-pro">
+									<img src="img/qq.jpg" alt="">
+								</div>
+								<div class="center-con">
+									<h3>web后端工程师</h3>
+									<p>
+										web后端工程师web后端工程师web后端工程师web后端工程师web后端工程师
+									</p>
+								</div>
+								<button type="submit" class="right-continue">继续征程</button>
+							</div>
+							<div class="myPlanTab">
+								<span class="myPlanTabBef">上一页</span>
+								<ul class="myPlanPage"></ul>
+								<span class="myPlanTabNex">下一页</span>
+							</div>
+						</div>
+						<!-- 学习计划部分结束 -->
+						<!-- 个人手札部分开始 -->
+						<div class="personal-inf">
+							<div class="tab_box_title">
+								个人手札
+							</div>	
+						</div>
+						<!-- 个人手札部分结束-->
+						<!-- 招募令部分开始 -->
+						<div class="personal-inf">
+							<div class="tab_box_title">
+								招募令
+							</div>
+						</div>
+						<!-- 招募令部分结束 -->
+						<!-- 关注人部分开始 -->
+						<div class="personal-inf">
+							<div class="tab_box_title">
+								关注人
+							</div>
+						</div>
+						<!-- 关注人部分结束-->
+					</div>
+					<!-- 右边tab_box部分结束 -->
+				</div>
+			</div>
+		</div>
+	<!-- 页面主题部分结束 -->
+	</div>
+<!-- content结束 -->
+<!-- footer开始 -->
+	<footer>
+		<div id="ft-wrap">
+			<div class="about">
+				<p class="get">Get in Touch</p>
+				<p>Vestibulum id ligula porta felis euismod semper,malesuada euismod</p>
+				<p>
+					<span>地址：重庆市南岸区崇文路2号</span>
+					<span>TEL:10086</span>
+					<span>FAX:01)10086</span>
+					<span>E-MAIL:asaweb@asweb.com</span>
+				</p>
+			</div>
+			<div class="ft-about">
+				<span><a href="#">关于本站</a></span>
+				<span><a href="#">友情链接</a></span>
+				<span><a href="#">联系我们</a></span>
+				<span><a href="#">运行维护</a></span>
+				<span><a href="#">版权申明</a></span>
+			</div>
+		</div>
+	</footer>
+	<!-- footer结束 -->
+</body>
+</html>

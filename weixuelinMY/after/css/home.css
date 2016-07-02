@@ -1,0 +1,196 @@
+html,body,ul,li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+header {
+	position: relative;
+	width: 100%;
+	min-width: 840px;
+	height: 50px;
+	background-color: #202020;
+	color: #fff;
+}
+#head-wrap {
+	position: absolute;
+	width: 1348px;
+	height: 50px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.head-logo,#nav,.nav-login {
+	display: inline-block;
+}
+.head-logo {
+	position: relative;
+	width: 180px;
+	height: 50px;
+	left: 30px;
+}
+.head-logo a img {
+	position: relative;
+	width: 71px;
+	cursor: pointer;
+}
+.head-logo a span {
+	position: relative;
+	float: right;
+	color: #fff;
+	top: 10px;
+	font-size: 30px;
+	zoom: 1;
+}
+ .clearboth {
+	clear:both;
+}
+ul#nav {
+	position: absolute;
+	width: 650px;
+	min-width: 600px
+	height: 49px;
+	left: 50%;
+	margin-left: -325px;
+}
+#nav li {
+	float: left;
+	width: 130px;
+	height: 48px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+#nav li a {
+	width: 130px;
+	height: 48px;
+	display: block;
+	color: #f8f8f8;
+}
+#nav li a:hover {
+	background-color: #2fa8a9;
+	color: #cc0000;
+}
+#nav .cur {
+	position: absolute;
+	width: 130px;
+	height: 5px;
+	background-color: red;
+	bottom: 0;
+	left: 0;
+}
+.navbar-user {
+	position: absolute;
+	top: 0;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: red;
+	overflow: hidden;
+}
+.navbar-user img {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+#avatar {
+	display: none;
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	background-color: red;
+	right: 0;
+	top: 50px;
+	z-index: 10;
+}
+ul.user-avatar {
+	/*position: absolute;*/
+	width: 100px;
+	height: 200px;
+	/*background-color: red;*/	
+}
+ul.user-avatar li {
+	display: block;
+	width: 50px;
+	height: 20px;
+	background-color: #777;
+}
+ul.user-avatar li+li {
+	margin-top: 10px;
+}
+
+/*header结束*/
+/*content开始*/
+#content {
+	position: relative;
+	width: 100%;
+	height: 2000px;
+}
+
+
+/*content结束 */
+/*footer开始*/
+footer {
+	position: relative;
+	width: 100%;
+	height: 170px;
+	bottom: 0;
+	left: 0;
+	background-color: #313131;
+}
+#ft-wrap {
+	position: absolute;
+	width: 100%;
+	min-width: 1348px;
+	height: 170px;
+	margin: 0 auto;
+	left: 0;
+	top: 0;
+}
+.about {
+	position: absolute;
+	width: 725px;
+	/*height: 140px;*/
+	left: 50%;
+	top: 50%;
+	margin-left: -362px;
+	margin-top: -70px;
+	text-align: center;
+}
+.about p {
+	color: #000;
+	font-size: 16px;
+}
+p.get {
+	color: #e0e0e0;
+	font-size: 20px;
+}
+.ft-about {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	top: 120px;
+	/*bottom: 0;*/
+	text-align: center;
+}
+.ft-about span {
+	padding-left: 30px;	
+}
+.ft-about span a {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #777;
+	font-size: 20px;
+}
+.ft-about span a:hover {
+	color: #cc0000;
+}
