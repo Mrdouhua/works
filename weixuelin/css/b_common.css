@@ -1,0 +1,288 @@
+html,body,ul,li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+header {
+	position: relative;
+	width: 100%;
+	min-width: 840px;
+	height: 50px;
+	background-color: #202020;
+	color: #fff;
+}
+#head-wrap {
+	position: absolute;
+	width: 1348px;
+	height: 50px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.head-logo,#nav,.nav-login,.title1,.title2,.title3 {
+	display: inline-block;
+}
+.head-logo {
+	position: relative;
+	min-width: 150px;
+	height: 50px;
+	left: 30px;
+}
+.head-logo a img {
+	position: relative;
+	width: 71px;
+	cursor: pointer;
+}
+.head-logo a span {
+	position: relative;
+	float: right;
+	color: #fff;
+	top: 15px;
+	font-size: 20px;
+	zoom: 1;
+}
+ .clearboth {
+	clear:both;
+}
+ul#nav {
+	position: absolute;
+	width: 650px;
+	min-width: 600px
+	height: 49px;
+	left: 50%;
+	margin-left: -325px;
+}
+#nav li {
+	float: left;
+	width: 130px;
+	height: 48px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+#nav li a {
+	width: 130px;
+	height: 48px;
+	display: block;
+	color: #f8f8f8;
+}
+#nav li a:hover {
+	background-color: #2fa8a9;
+	color: #cc0000;
+}
+#nav .cur {
+	position: absolute;
+	width: 130px;
+	height: 5px;
+	background-color: red;
+	bottom: 0;
+	left: 0;
+}
+.nav-login {
+	position: relative;
+	float: right;
+	width: 150px;
+	height: 50px;
+	right: 30px;
+	/*text-align: center;*/
+	line-height: 50px;
+}
+.nav-login a {
+	color: #fff;
+}
+.login-btn {
+	position: relative;
+	background-color: #202020;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+}
+.register-btn {
+	position: relative;
+	background-color: #202020;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+}
+#close{ 
+	background: url(../img/close.png) no-repeat; 
+	width:30px; 
+	height:30px; 
+	cursor:pointer; 
+	position:absolute; 
+	right:5px; 
+	top:15px; 
+	text-indent:-999em;
+}
+#mask{ 
+	background-color:#111;
+	opacity:0.7;
+	filter: alpha(opacity=70); 
+	position:absolute; 
+	left:0;
+	top:0;
+	z-index:1000;
+}
+#login{ 
+	position:fixed;
+	display: none;
+	left: 50%;
+	top: 50%;
+	z-index:1001;
+}
+.loginCon{ 
+	position:relative; 
+	width:670px;
+	height:380px;
+	background:#edf1f3;
+}
+.loginTitle {
+	position: relative;
+	width: 670px;
+	height: 50px;
+	background-color: #bf3848;
+	color: #fff;
+	line-height: 50px;
+	text-indent: 20px;
+	font-size: 20px;
+}
+.loginCon form {
+	position: absolute;
+	width: 310px;
+	height: 150px;
+	margin: auto;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+}
+.userPass {
+	position: relative;
+	width: 310px;
+	height: 91px;
+	text-align: right;
+}
+.username {
+	position: relative;
+	width: 250px;
+	height: 30px;
+}
+.password {
+	position: relative;
+	margin-top: 20px;
+	width: 250px;
+	height: 30px;
+}
+.submit {
+	position: relative;
+	background-color: #38b94e;
+	width: 100px;
+	height: 30px;
+	border: none;
+	margin-left: 70px;
+}
+.reset {
+	position: relative;
+	width: 100px;
+	height: 30px;
+	border: none;
+}
+.buttons {
+	width: 310px;
+	height: 60px;
+	/*margin: auto;*/
+	line-height: 60px;
+}
+input:required {
+	border: 1px solid #434343;
+}
+input:invalid {
+	color: red;
+}
+.feedback {
+	position: absolute;
+	width: 300px;
+	height: 130px;
+	margin: auto;
+	left: 50%;
+	bottom: 0;
+	margin-left: -200px;
+}
+/*header缁撴潫*/
+/*鍐呭寮�濮�*/
+#content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+/*灏鹃儴寮�濮�*/
+footer {
+	position: relative;
+	width: 100%;
+	height: 170px;
+	background-color: #313131;
+}
+#ft-wrap {
+	position: absolute;
+	width: 1348px;
+	height: 170px;
+	margin: 0 auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.about {
+	position: absolute;
+	width: 725px;
+	/*height: 140px;*/
+	left: 50%;
+	top: 50%;
+	margin-left: -362px;
+	margin-top: -75px;
+	text-align: center;
+}
+.about p {
+	color: #000;
+	font-size: 16px;
+}
+.about p.get {
+	color: #e0e0e0;
+	font-size: 16px;
+}
+
+.ft-about {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	text-align: center;
+}
+.ft-about span {
+	padding-left: 30px;	
+}
+.ft-about span a {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #777;
+	font-size: 18px;
+}
+.ft-about span a:hover {
+	/*background-color: #2fa8a9;*/
+	color: #cc0000;
+}

@@ -1,0 +1,197 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft Yahei';
+}
+
+/* 主体开始 */
+
+#z_contWrap {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#z_con {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* 内容部分开始 */
+
+
+/* 课程视频开始 */
+
+.lesVideo {
+	width: 100%;
+	overflow: hidden;
+}
+
+.lesVideoItem {
+	width: 960px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: #8ca050;
+}
+
+/* 课程视频结束 */
+
+
+/* 课程评论开始 */
+
+.lesComme {
+	width: 960px;
+	margin: 30px 0;
+}
+
+/* 评论编辑开始 */
+
+.commEdi {
+	width: 960px;
+	margin-bottom: 40px;
+}
+
+.commEdiTit {
+	width: 960px;
+	padding: 8px 0;
+	border-bottom: 1px solid #dcdca0;
+	font-size: 17px;
+	color: #283c14;
+}
+
+.commEdiPar {
+	width: 960px;
+	height: 220px;
+	overflow: hidden;
+}
+
+.commEdiPic {
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 0;
+	border-radius: 50px;
+	background-color: green;
+}
+
+.comment {
+	float: left;
+	width: 650px;
+	height: 194px;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	resize: none;
+}
+
+.commSubBtn {
+	float: right;
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	margin-top: 180px;
+	margin-right: 40px;
+	border: 0;
+	font-size: 16px;
+	background-color: #788c14;
+	color: #f0f0c8;
+	cursor: pointer;
+}
+
+/* 评论编辑结束 */
+
+/* 评论内容开始 */
+
+.commCon {
+	width: 960px;
+}
+
+.commConPar {
+	width: 960px;
+}
+
+.commConItem {
+	margin-bottom: 10px;
+	border-top: 1px solid #dcdca0;
+	overflow: hidden;
+}
+
+.commConPic {
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 0;
+	border-radius: 50px;
+	background-color: green;
+}
+
+.commConInf {
+	float: left;
+	width: 650px;
+	margin-top: 20px;
+}
+
+.commConName {
+	display: block;
+	font-size: 17px;
+	color: #788c14;
+}
+
+.commConPara {
+	width: 650px;
+	/*height: 60px;*/
+	padding: 10px 0;
+	margin: 0;
+}
+
+.commConDate {
+	display: block;
+	margin: 10px 0;
+	font-size: 15px;
+	color: #a0b450;
+}
+
+.commConTab {
+	width: 960px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.commentPage {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.commConTabFir, .commConTabBef,
+.commConTabNex, .commConTabLas {
+	padding: 0 5px;
+	font-size: 16px;
+	color: #506414;
+	cursor: pointer;
+}
+
+.commConPageItem {
+	display: inline-block;
+	padding: 2px 4px;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+/* 评论内容结束 */
+
+
+/* 课程评论结束 */
+
+
+/* 内容部分结束 */
+
+/* 主体结束 */

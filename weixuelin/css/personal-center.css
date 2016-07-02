@@ -1,0 +1,402 @@
+html,body,ul,li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+/*header开始*/
+header {
+	position: relative;
+	width: 100%;
+	min-width: 840px;
+	height: 50px;
+	background-color: #202020;
+	color: #fff;
+}
+#head-wrap {
+	position: absolute;
+	width: 1348px;
+	height: 50px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.head-logo,#nav,.nav-login {
+	display: inline-block;
+}
+.head-logo {
+	position: relative;
+	width: 180px;
+	height: 50px;
+	left: 30px;
+}
+.head-logo a img {
+	position: relative;
+	width: 71px;
+	cursor: pointer;
+}
+.head-logo a span {
+	position: relative;
+	float: right;
+	color: #fff;
+	top: 10px;
+	font-size: 30px;
+	zoom: 1;
+}
+ .clearboth {
+	clear:both;
+}
+/*头部导航菜单开始*/
+ul#nav {
+	position: absolute;
+	width: 650px;
+	min-width: 600px
+	height: 49px;
+	left: 50%;
+	margin-left: -325px;
+}
+#nav li {
+	float: left;
+	width: 130px;
+	height: 48px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+#nav li a {
+	width: 130px;
+	height: 48px;
+	display: block;
+	color: #f8f8f8;
+	text-decoration: none;
+}
+#nav li a:hover {
+	background-color: #2fa8a9;
+	color: #cc0000;
+}
+#nav .cur {
+	position: absolute;
+	width: 130px;
+	height: 5px;
+	background-color: red;
+	bottom: 0;
+	left: 520px;
+}
+/*头部导航菜单结束*/
+/*导航头像部分开始*/
+.navbar-user {
+	position: absolute;
+	top: 0;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: red;
+	overflow: hidden;
+}
+.navbar-user img {
+	display: block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+#avatar {
+	display: none;
+	position: absolute;
+	width: 150px;
+	min-height: 90px;
+	height: 100%;
+	right: 0;
+	top: 50px;
+	z-index: 10;
+	background-color: #212121;
+}
+ul.user-avatar {
+	width: 150px;
+}
+ul.user-avatar li {
+	display: block;
+	width: 150px;
+	height: 20px;
+}
+ul.user-avatar li a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+ul.user-avatar li+li {
+	margin-top: 10px;
+}
+/*导航头像部分结束*/
+/*header结束*/
+/*content开始*/
+#content {
+	position: relative;
+	width: 100%;
+	height: 1300px;
+}
+.perBg {
+	position: relative;
+	width: 100%;
+	height: 415px;
+}
+.perBg img {
+	display: block;
+	position: absolute;
+	margin: auto;
+	width: 1349px;
+	height: 415px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+#main-wrap {
+	position: relative;
+	width: 100%;
+	height: 880px;
+}
+#main {
+	position: absolute;
+	margin: auto;
+	width: 1000px;
+	height: 950px;
+	left: 50%;
+	top: 50%;
+	margin-top: -475px;
+	margin-left: -500px;
+}
+.proto {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #777;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: -30px;
+}
+.proto img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+.main-content {
+	position: relative;
+	width: 1000px;
+	height: 800px;
+}
+ul.tab-titles {
+	position: relative;
+	width: 200px;
+	height: 250px;
+}
+ul.tab-titles li {
+	display: block;
+	width: 200px;
+	height: 50px;
+	border-bottom: 1px solid #777;
+	text-align: center;
+	line-height: 50px;
+	color: #777;
+	font-size: 18px;
+	overflow: hidden;
+	cursor: pointer;
+}
+ul.tab-titles li.selected {
+	background-color: #2ea7a8;
+}
+ul.tab-titles li span:first-child {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+}
+ul.tab-titles li span:last-child {
+	position: relative;
+	float: right;
+	margin-top: 10px;
+}
+.personal-inf {
+	position: absolute;
+	display: block;
+	width: 700px;
+	height: 800px;
+	background-color: #fff;
+	top: 0;
+	left: 50%;
+	margin-left: -200px;
+}
+.tab_box_title {
+	position: relative;
+	width: 700px;
+	height: 50px;
+	font-size: 20px;
+	color: #20124d;
+	line-height: 50px;
+	border-bottom: 1px solid #777;
+}
+/* 个人中心开始 */
+#tab-form div {
+	margin-top: 5px;
+	font-size: 18px;
+	color: #425154;
+}
+#tab-form label {
+	font-size: 18px;
+	color: #425154;
+	cursor: pointer;
+}
+ .tab-form-input {
+	width: 500px;
+	height: 40px;
+} 
+.sex-input {
+	width: 20px;
+	height: 20px;
+}
+.int {
+	position: relative;
+	top: -50px;
+}
+.intro {
+	width: 500px;
+	height: 150px;
+}
+.nickAfter,.sexAfter,.schoolAfter,.areaAfter,.inforAfter {
+	visibility: hidden;
+	width: 500px;
+	height: 30px;
+	color: red;
+	font-size: 16px;
+	margin-left: 45px;
+}
+.tab-form-save {
+	position: relative;
+	width: 300px;
+	height: 50px;
+	left: 160px;
+	background-color: #6aa84f;
+}
+/* 学习计划 */
+.myPlan {
+	position: relative;
+	width: 700px;
+	height:: 410px;
+	overflow: hidden;
+}
+.left-pro,.center-con,.right-continue {
+	display: inline-block;
+	margin-top: 30px;
+}
+.left-pro img {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+.center-con {
+	position: relative;
+	margin-left: 50px;
+	width: 350px;
+}
+.right-continue {
+	position: absolute;
+	width: 80px;
+	height: 50px;
+	top: 10px;
+}
+/* 关注人开始 */
+#focus-person-lists {
+	width: 700px;
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+}
+.focus1{
+	position: relative;
+	float: left;
+	width: 700px;
+	height: 700px;
+	border-top: none;
+}
+
+.users {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+	border: 1px solid #777;
+	margin: 40px 25px 20px 5px;
+	padding: 5px 25px 0 10px;
+}
+.user-pto {
+	position: relative;
+	width: 136px;
+	height: 136px;
+	border-radius: 50%;
+	background: url(../img/qq.jpg) no-repeat;
+}
+/*content结束 */
+/*footer开始*/
+footer {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background-color: #313131;
+}
+#ft-wrap {
+	position: absolute;
+	width: 1348px;
+	height: 150px;
+	margin: 0 auto;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.about {
+	position: absolute;
+	width: 725px;
+	/*height: 140px;*/
+	left: 50%;
+	top: 50%;
+	margin-left: -362px;
+	margin-top: -75px;
+	text-align: center;
+}
+.about p {
+	color: #000;
+	font-size: 16px;
+}
+.about p.get {
+	color: #e0e0e0;
+	font-size: 20px;
+}
+
+.ft-about {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	text-align: center;
+}
+.ft-about span {
+	padding-left: 30px;	
+}
+.ft-about span a {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #777;
+	font-size: 20px;
+}
+.ft-about span a:hover {
+	color: #cc0000;
+}
+/*footer结束*/

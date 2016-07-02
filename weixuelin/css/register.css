@@ -1,0 +1,132 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft Yahei';
+}
+
+/* 主体开始 */
+
+#z_contWrap {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#z_con {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* 注册部分开始 */
+
+.z_form {
+	width: 800px;
+	padding: 40px 20px;
+	margin: 20px auto;
+	border-radius: 25px;
+	background-color: #dcf0b4;
+	overflow: hidden;
+}
+
+.z_formItem {
+	padding-bottom: 30px;
+	margin: 0 auto;
+	width: 400px;
+	overflow: none;
+	color: #788c28;
+}
+
+.z_formItem label {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	color: #788c28;
+}
+
+#z_user_id_after {
+	display: inline-block;
+	padding: 4px 0;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	border: 1px #a0b464 dashed;
+	border-radius: 10px;
+	text-align: center;
+	color: #a0b464;
+}
+
+#z_password_after {
+	display: inline-block;
+	padding: 4px 0;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	border: 1px #a0b464 dashed;
+	border-radius: 10px;
+	text-align: center;
+	color: #a0b464;
+}
+
+#z_aPassword_after {
+	display: none;
+	padding: 4px 0;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	border: 1px #a0b464 dashed;
+	border-radius: 10px;
+	text-align: center;
+	color: #a0b464;
+}
+
+#z_nickName_after {
+	display: inline-block;
+	padding: 4px 0;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	border: 1px #a0b464 dashed;
+	border-radius: 10px;
+	text-align: center;
+	color: #a0b464;
+}
+
+#z_school_after {
+	display: inline-block;
+	padding: 4px 0;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	border: 1px #a0b464 dashed;
+	border-radius: 10px;
+	text-align: center;
+	color: #a0b464;
+}
+
+.z_formItemInp {
+	float: right;
+	width: 250px;
+	height: 28px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #788c28;
+}
+
+#z_submit {
+	display: block;
+	width: 90px;
+	height: 30px;
+	margin: 0 auto;
+	border-radius: 8px;
+	background-color: #788c14;
+	color: #dcf0b4;
+}
+
+#z_submit:focus {
+	border: 0;
+	border-radius: 8px;
+}
+
+/* 注册部分结束 */
+
+/* 主体结束 */

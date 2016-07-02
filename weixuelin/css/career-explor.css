@@ -1,0 +1,181 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft Yahei';
+}
+
+/* 主体开始 */
+
+#z_contWrap {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#z_con {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* 内容部分开始 */
+
+
+/* 职路探索导航开始 */
+
+.carExplorNav {
+	width: 960px;
+}
+
+.carExplorNavTit, .hotWorkTit {
+	padding: 10px 0;
+	margin: 0;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.carExplorNavCon {
+	width: 960px;
+	/*height: 213px;*/
+	overflow: hidden;
+}
+
+.proNav, .majorNav, .careerNav {
+	width: 960px;
+	height: 70px;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid #dcdca0;
+	overflow: hidden;
+}
+
+.proNavItem, .majorNavItem, .careerNavItem, .proNavItemTit, .majorNavItemTit, .careerNavItemTit {
+	float: left;
+	padding: 2px 5px;
+	margin-top: 20px;
+	margin: 20px 15px 0 15px;
+	list-style-type: none;
+}
+
+.proNavItem a, .majorNavItem a, .careerNavItem a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.proCon {
+	display: none;
+}
+
+.proConShow {
+	display: block;
+}
+.selected a {
+	padding: 2px 5px;
+	background-color: #788c14;
+	color: #f0f0b4;
+}
+
+/* 职路探索导航结束 */
+
+/* 热门职业开始 */
+
+.hotWork {
+	width: 960px;
+	margin-top: 10px;
+}
+
+.hotWorkTit {
+	border-bottom: 1px solid #dcdca0;
+}
+
+.hotLesson {
+	width: 960px;
+	margin-top: 20px;
+}
+
+.hotLessonCon {
+	width: 960px;
+	height: 760px;
+	overflow: hidden;
+}
+
+.hotLessonItem {
+	float: left;
+	width: 260px;
+	height: 350px;
+	margin: 0 30px 20px 30px;
+	overflow: hidden;
+}
+
+.hotLessonLink {
+	display: block;
+	width: 260px;
+	height: 220px;
+	border: 0;
+	text-decoration: none;
+}
+
+.hotLessonImg {
+	width: 260px;
+	height: 220px;
+	border: 0;
+}
+
+.hotLessonInfTit {
+	width: 260px;
+	padding: 0;
+	margin: 5px 0;
+}
+
+.lessonNum, .studyNum {
+	padding: 0;
+	margin: 0;
+	padding-right: 8px;
+	font-size: 16px;
+	color: #506414;
+}
+
+.studyBut {
+	padding: 1px 10px;
+    border: 1px solid #dcdca0;
+    border-radius: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #788c14;
+}
+
+.hotLessonTab {
+	width: 960px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.hotLessonPage {
+	display: inline-block;
+}
+
+.hotLessonTabFir, .hotLessonTabBef,
+.hotLessonTabNex, .hotLessonTabLas {
+	padding: 0 5px;
+	font-size: 16px;
+	color: #506414;
+	cursor: pointer;
+}
+
+.hotLessonPage {
+	padding: 0;
+	margin: 0;
+}
+
+.hotLessonPageItem {
+	display: inline-block;
+	padding: 2px 4px;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+/* 热门职业结束 */
+
+
+/* 内容部分结束 */
+
+/* 主体结束 */

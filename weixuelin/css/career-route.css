@@ -1,0 +1,209 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft Yahei';
+}
+
+/* 主体开始 */
+
+#z_contWrap {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#z_con {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* 内容部分开始 */
+
+
+/* 路线名称部分开始 */
+
+.routeTit {
+	margin: 20px 0 50px 0;
+	border-bottom: 1px solid #dcdca0;
+}
+
+.routeName {
+	width: 960px;
+	padding: 5px 0;
+	margin: 0;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.lessonNum, .studyNum {
+	padding: 0;
+	margin: 0;
+	padding-right: 8px;
+	font-size: 16px;
+	color: #506414;
+}
+
+/* 路线名称部分结束 */
+
+/* 学习路线部分开始 */
+
+.routeCon {
+	width: 960px;
+}
+
+.juniorLes, .middleLes, .seniorLes {
+	width: 960px;
+}
+
+.juniorLesTit, .middleLesTit, .seniorLesTit {
+	width: 960px;
+	padding: 5px 0;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dcdca0;
+	font-size: 19px;
+	letter-spacing: 2px;
+}
+
+.juniorLesCarou, .middleLesCarou,
+.seniorLesCarou {
+	position: relative;
+	width: 960px;
+	height: 360px;
+	overflow: hidden;
+}
+
+iframe {
+	position: relative;
+	width: 960px;
+	height: 360px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+.juniorLesConWrap, .middleLesConWrap,
+.seniorLesConWrap {
+	position: relative;
+	left: 0;
+	float: left;
+	width: 900px;
+	height: 360px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.juniorLesCon, .middleLesCon,
+.seniorLesCon {
+	position: absolute;
+	height: 360px;
+	padding: 0;
+	margin: 0;
+	z-index: 55;
+}
+
+.juniorLesItem, .middleLesItem,
+.seniorLesItem {
+	float: left;
+	width: 260px;
+	height: 350px;
+	padding: 5px 20px;
+	overflow: hidden;
+}
+
+.juniorLesLink, .middleLesLink, 
+.seniorLesLink {
+	display: block;
+	width: 260px;
+	height: 220px;
+	border: 0;
+	text-decoration: none;
+}
+
+.juniorLesImg, .middleLesImg, 
+.seniorLesImg {
+	width: 260px;
+	height: 220px;
+	border: 0;
+}
+
+.juniorLesInfTit, .middleLesInfTit, 
+.seniorLesInfTit {
+	width: 260px;
+	padding: 0;
+	margin: 5px 0;
+}
+
+.studyBut {
+	padding: 1px 10px;
+	border: 1px solid #dcdca0;
+	border-radius: 5px;
+	font-size: 17px;
+	text-decoration: none;
+	color: #788c14;
+}
+
+.juniorLesButLef, .middleLesButLef ,
+.seniorLesButLef {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0 0 10px 0;
+	margin-top: 100px;
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: #dcf0b4;
+	color: #8ca028;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.juniorLesButRig, .middleLesButRig, 
+.seniorLesButRig {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0 0 10px 0;
+	margin-top: 100px;
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: #dcf0b4;
+	color: #8ca028;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.arrow-right-01 {
+	position: absolute;
+	left: 325px;
+    top: 110px;
+    width:0; 
+    height:0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #788c14;
+}
+
+.arrow-right-02 {
+	position: absolute;
+	left: 625px;
+	top: 110px;
+    width:0; 
+    height:0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #788c14;
+} 
+
+/* 学习路线部分结束 */
+
+
+/* 内容部分结束 */
+
+/* 主体结束 */
