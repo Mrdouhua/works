@@ -475,3 +475,29 @@ footer {
 	/*background-color: #2fa8a9;*/
 	color: #cc0000;
 }
+
+.reset1 {
+	width: 240px;
+	height: 176px;
+	background: #fff;
+	position: fixed;
+	display: none;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -88px;
+	z-index: 1002;
+	border: 1px solid #111;
+}
+#close1 {
+	width: 30px;
+	height: 30px;
+	background: url(../img/close.png) no-repeat;
+	position: absolute;
+	cursor: pointer;
+	right: 5px;
+	top: 5px;
+}
+#myForm {
+	margin-top: 30px;
+}

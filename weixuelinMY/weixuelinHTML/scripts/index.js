@@ -225,3 +225,30 @@ $(function(){
         return false;  
     })        
 });
+//mibao
+$(function(){
+    $('#reset').click(function(){
+        $('#login').css('display','none');
+        $('.reset1').css('display','block');
+    })
+    $('#close1').click(function(){
+        $('.reset1').css('display','none');
+    })
+    $('#question').html('你高中班主任的名字？');
+    $('#submit1').click(function(){
+        var answer = $('#answer').val();
+        // $('.question').val('ddd');
+        alert($('#question').html());
+        $.ajax({
+            url:'${pageContext.request.contextPath}/User_getUserByUserId',
+            type:'post',
+            data:{
+                userId:userId
+            },
+            dataType:'json',
+            success:function(obj){
+                alert('666');
+            }
+        });
+    })
+})
